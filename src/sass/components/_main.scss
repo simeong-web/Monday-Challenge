@@ -1,0 +1,56 @@
+.page-wrapper {
+    position: fixed;
+    top: 17%;
+    left: 20%;
+    height: 510px;
+    display: flex;
+    padding: 4em 3em;
+    background-color: rgba($color: #FFF, $alpha: 0.6);
+    border-radius: 1.5em;
+    width: 1000px;
+}
+
+.main-header {
+    display: flex;
+}
+
+.header-logo-text {
+    font-size: 18px;
+    margin-right: .5em;
+}
+
+.header-nav {
+    margin: auto 0;
+}
+
+.list-item {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgba($color: #000000, $alpha: 0.8);
+}
+
+.landing-container {
+    padding-top: 55%;
+    width: 60%;
+}
+
+.landing-title {
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.landing-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba($color: #000000, $alpha: 0.3);
+    margin-bottom: 4em;
+}
+
+.shape-container {
+    width: 68%;
+}
